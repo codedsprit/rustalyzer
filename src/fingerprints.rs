@@ -2,6 +2,7 @@ use regex::Regex;
 use lazy_static::lazy_static;
 use std::collections::HashMap;
 
+
 lazy_static! {
     pub static ref TECH_FINGERPRINTS: HashMap<&'static str, Regex> = {
         let mut m = HashMap::new();
